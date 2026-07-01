@@ -1,0 +1,1 @@
+const btn=document.getElementById('btn'),carta=document.getElementById('carta'),inf=document.getElementById('inf'),msg=document.getElementById('msg');btn.onclick=()=>{carta.classList.remove('oculto');btn.remove()};inf.onclick=()=>msg.classList.remove('oculto');
